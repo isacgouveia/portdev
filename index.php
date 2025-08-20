@@ -22,30 +22,8 @@
     <?php include('templates/cases.php')?>
     </main>
 
-    <section id="services" class="container">
-        <p>Meu serviços</p>
-        <p>Como posso ajudar o seu negócio?</p>
-
-        <div class="grid grid-col-3">
-            <div class="service-card">
-                <img src="assets/images/icons/Devices.png" alt="Icone de um computador">
-                <p>Websites e Aplicativos</p>
-                <p>Desenvolvimento de interfaces</p>
-            </div>
-
-            <div class="service-card">
-                <img src="assets/images/icons/HardDrives.png" alt="Icone de um computador">
-                <p>API e banco de dados</p>
-                <p>Criação de serviços do sistema</p>
-            </div>
-
-            <div class="service-card">
-                <img src="assets/images/icons/Infinity.png" alt="Icone de um computador">
-                <p>DevOps</p>
-                <p>Gestão e insfraestrutura da aplicação</p>
-            </div>
-        </div> <!-- serviços -->
-    </section>
+    <!-- Serviços -->
+    <?php include('templates/services.php')?>
 
     <footer>
         <p>Contato</p>
